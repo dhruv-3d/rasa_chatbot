@@ -6,6 +6,9 @@ nlu:
     - hey
     - hello
     - hi
+    - hola
+    - hi there
+    - ssup?
     - hello there
     - good morning
     - good evening
@@ -29,6 +32,9 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - good night
+    - ttyl
+    - catch you later
 
 - intent: affirm
   examples: |
@@ -38,6 +44,8 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - ok
+    - okay
 
 - intent: deny
   examples: |
@@ -48,6 +56,8 @@ nlu:
     - don't like that
     - no way
     - not really
+    - nope
+    - neo
 
 - intent: mood_great
   examples: |
@@ -89,3 +99,15 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - who are you?
+    - do you feel hungry?
+
+- intent: amtics_intro
+  examples: |
+    - What is AMTICS?
+    - Can you tell me about amtics?
+    - tell me about amtics?
+    - give intro about AMTICS.
+    - about AMTICS institute.
+    - What this institue is about?
+    - tell me about your institute.

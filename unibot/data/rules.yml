@@ -11,3 +11,8 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Say About Institue anytime the user asks about AMTICS
+  steps:
+  - intent: amtics_intro
+  - action: utter_about_amtics

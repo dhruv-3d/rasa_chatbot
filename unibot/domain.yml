@@ -8,6 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - amtics_intro
 
 responses:
   utter_greet:
@@ -28,6 +29,9 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_about_amtics:
+  - text: "Asha M. Tarsadia Institute of Computer Science and Technology (AMTICs) is a constituent institute of Uka Tarsadia University, Maliba-Campus. AMTICs is established with a mission to persistently impart skill-based industry oriented technical education in the areas of Computer Science and Technology. The institute is committed to provide an open platform for diverse voices where the teaching-learning process is parallel to real-world applications. The student gets nurtured under well-experienced academicians, researchers, and industry experts who are dynamically involved and committed to tackle cutting-edge societal and technological problems around the globe."
 
 session_config:
   session_expiration_time: 60
