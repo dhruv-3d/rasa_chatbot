@@ -111,3 +111,9 @@ nlu:
     - about AMTICS institute.
     - What this institue is about?
     - tell me about your institute.
+
+- intent: out_of_scope
+  examples: |
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
